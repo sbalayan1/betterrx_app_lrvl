@@ -53,7 +53,7 @@
             <li>User is able to search for NPI providers using first name, last name, taxonomy, npi number, city, state, zip, or a combination of search values.</li>
             <li>50 results are displayed by default and pagination is implemented to let the user navigate through the results if the results are larger.</li>
             <li>The user is able to select a provider by clicking on a provider card and is redirected to https://npiregistry.cms.hhs.gov/provider-view/{npi} to view more details about the provider.</li>
-            <li>The json payload is stored within the session object so the User is able to navigate back to the /providers endpoint after viewing the provider details and view their search results.</li>
+            <li>The json payload is stored within the session object so the User is able to navigate back to the /providers endpoint without needing to resubmit a POST request.</li>
             <li>API requests are sent from the backend and React components are rendered depending on the request method and endpoint</li>
         </ol>
 <h2>How to run the application locally</h2>
