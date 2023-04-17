@@ -67,4 +67,5 @@
         <li>The application lives at http://127.0.0.1:8000. All endpoints work from this url.</li>
         <li>Input something in the form and search for NPI providers!!</li>
     </ol>
-<h2>Other Notes </h2>
+<h2>Other Notes</h2>
+    <p>Video DEMO coming soon</p>
