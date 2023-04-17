@@ -68,4 +68,4 @@
         <li>Input something in the form and search for NPI providers!!</li>
     </ol>
 <h2>Other Notes</h2>
-    <p>Video DEMO coming soon</p>
+    <a href="https://www.loom.com/share/886cfc82eba849f88ac4f1eb3693b637">VIDEO DEMO</a>
