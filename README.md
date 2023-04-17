@@ -37,16 +37,16 @@
                 <li>#store => receives a json payload and uses it to make a GET request to the NPPES API. Receives a JSON response, stores the payload in the session obj and returns the ProvidersList. </li>
             </ol>
     
-- Frontend - React w/ Inertia
-    - Pages
-        - Search: landing page that displays the search form and submit button
-        - ProvidersList: List of providers page displayed after a successful POST request or retrieval of json data witin the session obj. 
-        
-    - Components
-        - RequestForm: Form displayed on the landing page
-        - ProviderCard: Individual Provider Card that is rendered when displaying the ProvidersList. 
-
-    - Features
-
-
-    - Other Notes
+<h2>Frontend - React w/ Inertia </h2>
+    <h3>Pages</h3>
+        <ol>
+            <li>Search: landing page that displays the search form and submit button</li>
+            <li>ProvidersList: List of providers page displayed after a successful POST request or retrieval of json data witin the session obj.</li>
+        </ol>
+    <h3>Components </h3>
+        <ol>
+            <li>RequestForm: Form displayed on the landing page</li>
+            <li>ProviderCard: Individual Provider Card that is rendered when displaying the ProvidersList.</li>
+        </ol>
+    <h3>Features </h3>
+    <h3>Other Notes </h3>
