@@ -54,7 +54,11 @@
             <li>50 results are displayed by default and pagination is implemented to let the user navigate through the results if the results are larger.</li>
             <li>The user is able to select a provider by clicking on a provider card and is redirected to https://npiregistry.cms.hhs.gov/provider-view/{npi} to view more details about the provider.</li>
             <li>The json payload is stored within the session object so the User is able to navigate back to the /providers endpoint without needing to resubmit a POST request.</li>
-            <li>API requests are sent from the backend and React components are rendered depending on the request method and endpoint</li>
+            <li>API requests are sent from the backend and React components are rendered depending on the request method and endpoint.</li>
+            <li>Inputs in the form are stored in Inertia's history state and are displayed when navigating back to the Search page.</li>
+            <li>No results are displayed if no matches are found.</li>
+            <li>User is not able to submit an empty form and errors are logged to the console.</li>
+            <li>Submit button gets disabled so resubmissions are prevented.</li>
         </ol>
 <h2>How to run the application locally</h2>
     <ol>
