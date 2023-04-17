@@ -58,7 +58,7 @@ class ProvidersController extends Controller
     }
 
 
-    //GET /providers/{number}: renders an external link for the Providers' details
+    //GET /providers/{number}: renders an external link of the selected Providers' details
     public function show(Request $request)
     { 
         return Inertia::location("https://npiregistry.cms.hhs.gov/provider-view/{$request->number}"); //renders the providers details
