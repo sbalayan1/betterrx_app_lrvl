@@ -21,7 +21,7 @@
             <li>Link to git repo.  Please also include a video demonstrating functionality if Laravel is not used.</li>
         </ol>
 
-<h2> Backend - Laravel </h2>
+<h2> Backend - Laravel (scaffolded with Breeze) </h2>
     <h3>Routes</h3>
         <ol>
             <li>GET / => renders the Search component.</li>
